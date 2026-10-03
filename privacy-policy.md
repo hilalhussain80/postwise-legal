@@ -13,7 +13,8 @@ If you have a question about this policy, contact **tolloop1999@gmail.com**.
 
 - **Your plans stay on your phone.** Your accounts, videos, captions, scripts,
   ideas, schedules and stats are stored only on your device. We do not run a
-  server, and we never receive or upload this content.
+  server, and we never receive or upload this content. The optional workspace
+  feature shares your plan only with phones you approve on your own WiFi.
 - **No sign-up.** Postwise has no user accounts and never asks for the password
   of TikTok, YouTube, Facebook, Instagram or any other service.
 - **Ads and analytics use Google services.** The app shows ads through Google
@@ -40,6 +41,15 @@ deleted by the app.
 to save or share it. Where that file goes afterwards (for example a cloud drive
 or a chat) is up to you and that service's own privacy policy. Your app-lock PIN
 is not included in backups.
+
+**Workspace (optional).** If you host a workspace, your content plan (active
+profiles and their posts) is sent directly to the phones you approve on the
+same WiFi network. It never passes through the internet or our servers, and it
+is end-to-end encrypted (X25519 key exchange, AES-256-GCM). Settings, the
+app-lock PIN, reminders, stats, ideas, notes and media are not shared. If you
+join a workspace, the host's plan is downloaded to your phone the same way.
+Phones on the network can see that a Postwise workspace is available, but not
+its content.
 
 **Deleting your data.** Uninstalling the app or clearing its storage deletes all
 of this data from your device. We keep no copy, so we cannot restore it.
@@ -99,7 +109,8 @@ app keeps working.
 | Start at boot | To restore your reminders after the phone restarts. |
 | Calendar (optional) | Only if you turn on calendar sync: to add your posting times to a calendar on your device. If that calendar is synced to an online account (for example Google Calendar), your calendar provider will sync those events. |
 | Fingerprint or face unlock (optional) | Only if you turn on app lock. The check is done by your phone's operating system; the app never receives your fingerprint or face data. |
-| Internet | Used only by the ad and analytics services. Planning features work offline. |
+| Camera (optional) | Only to scan a workspace QR code. Images are processed on the device and never saved or sent. |
+| Internet and WiFi state | Used by the ad and analytics services, and by workspace to find and reach phones on your local WiFi. Planning features work offline. |
 
 ## 5. What we do not do
 
