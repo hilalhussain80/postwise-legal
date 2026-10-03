@@ -45,9 +45,11 @@ is not included in backups.
 **Workspace (optional).** If you host a workspace, your content plan (active
 profiles and their posts) is sent directly to the phones you approve on the
 same WiFi network. It never passes through the internet or our servers, and it
-is end-to-end encrypted (X25519 key exchange, AES-256-GCM). Settings, the
-app-lock PIN, reminders, stats, ideas, notes and media are not shared. If you
-join a workspace, the host's plan is downloaded to your phone the same way.
+is end-to-end encrypted (X25519 key exchange, AES-256-GCM). An approved phone
+may also download the thumbnail and the video file of a shared post, in the
+same encrypted way. Settings, the app-lock PIN, reminders, stats, ideas and
+notes are not shared. If you join a workspace, the host's plan and any videos
+you open are downloaded to your phone the same way.
 Phones on the network can see that a Postwise workspace is available, but not
 its content.
 
